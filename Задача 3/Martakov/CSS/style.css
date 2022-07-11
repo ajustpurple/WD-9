@@ -2,26 +2,20 @@
     width: 1110px;
     margin: 0 auto; 
 }
-body{
-  
-}
 
 #header{
     width: 100%;
     height: 110px;
     background-color: #eb305d;
 }
-a#logo{
-    display: block; 
+a#logo{ 
     float: left;
+    margin-top: 10px;
 }
 a#logo span{
     font-size: 35px;
-    line-height: 100px;
     margin: 25px auto 65px ;
-} 
-a#logo img{
-    margin-top: 20%; 
+    float: right;
 }  
 ul#menu{
     float: right;
