@@ -249,3 +249,114 @@ main h1 {
     left: -275px;
     top: -100px;
 }
+.page3 {
+    width: 100%;
+    background-image: url(../img/bg-page3.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.page3 h3 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 140px;
+}
+.page3 .circle-small {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #da0000;
+    text-align: center;
+    margin-left: 230px;
+    color:#fff;
+}
+.page3 .circle-small ul {
+    padding-left: 0;
+    padding-top: 25%;
+    list-style: none;
+}
+.page3 .circle-small ul li:nth-child(1) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.page3 .circle-small ul li:nth-child(3) {
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.page3 .circle-small ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.page3 .circle-big {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #da0000;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 15px;
+    color:#fff;
+}
+.page3 .circle-big ul {
+    padding-left: 0;
+    padding-top: 30%;
+    list-style: none;
+}
+.page3 .circle-big ul li:nth-child(1) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.page3 .circle-big ul li:nth-child(3) {
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.page3 .circle-big ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.page3 .wrapper-page3 {
+    width: 75%;
+    height: 375px;
+    margin-left: 250px;
+    margin-right: auto;
+}
+.page3 .wrapper-page3 .left {
+    width: 50%;
+    float: left;
+}
+.page3 .wrapper-page3 .right {
+    width: 50%;
+    float: right;
+}
+.page3 .block {
+    background-color: #efefef;
+    margin-right: 30px;
+    padding: 20px 0 0 20px;
+}
+.page3 .block ul {
+    list-style: none;
+}
+.page3 .block ul li:nth-child(1) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.page3 .block ul li:nth-child(3) {
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.page3 .block ul li a {
+    text-decoration: none;
+    color:#000;
+}
+.page3 .wrapper-page3 .block4 {
+    background-color: #fff;
+}
+.page3 .why {
+    margin-top: 100px;
+}
+.container2 {
+    border: 1px solid rgba(1, 1, 1, 0.1);
+}
