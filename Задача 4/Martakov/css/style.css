@@ -11,10 +11,7 @@ html{
     border-width: 10px;
     border-color: black;
     border-style: solid;
-    border-top-left-radius:3%;
-    border-top-right-radius:3%;
-    border-bottom-left-radius:3%;
-    border-bottom-right-radius:3%;
+    border-radius: 3%;
 }
 #lap{
     width: 450px;
