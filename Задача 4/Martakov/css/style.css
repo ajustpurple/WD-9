@@ -260,6 +260,267 @@ html{
     font-weight: bold;
     line-height: 25px;
 }
+.article2{
+    width: 1200px;
+    height: 1000px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.article2 #none{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 125px;
+    padding-left: 120px; 
+    line-height: 50px;
+}
+.article2 #japan{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 675px;
+}
+.article2 #lap1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(206, 23, 23);
+    display: block;
+    margin: 275px 200px;
+    z-index: 1;
+}
+.article2 #lap2{
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(250, 24, 24);
+    display: block;
+    margin: 590px 250px;
+    z-index: 1;
+}
+.article2 #four,
+.article2 #eight{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+.article2 #four{
+    margin-top: 340px;
+    margin-left: 255px;
+}
+.article2 #eight{
+    margin-top: 700px;
+    margin-left: 340px;
+}
+.article2 #one,
+.article2 #two{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-size: 1rem;
+    text-align: center;
+}
+.article2 #one{
+    margin-top: 410px;
+    margin-left: 275px;
+}
+.article2 #two{
+    margin-top: 770px;
+    margin-left: 340px;
+}
+.article2 #first,
+.article2 #second{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.arrow-3 {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px; 
+    display: inline-block; 
+    margin: 20px;
+}
+.arrow-3 .arrow-3-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-3 .arrow-3-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-3:hover .arrow-3-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-3:hover .arrow-3-iconcircle {
+    stroke-dashoffset: 0;
+}
+.article2 #first{
+    margin-top: 470px;
+    margin-left: 255px;
+    z-index: 2;
+}
+.article2 #second{
+    margin-top: 830px;
+    margin-left: 340px;
+    z-index: 2;
+}
+.prices{
+    width: 1200px;
+    height: 900px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.prices #lessons{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 125px;
+    padding-left: 120px; 
+    line-height: 50px;
+}
+.prices #background1,
+.prices #background2,
+.prices #background3{
+    width: 400px;
+    height: 225px;
+    position: absolute;
+    filter: alpha(Opacity=10);
+    opacity: 0.1;
+    z-index: 1;
+}
+.prices #background1{
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.prices #background2{
+    margin-top: 300px;
+    margin-left: 650px;
+}
+.prices #background3{
+    margin-top: 560px;
+    margin-left: 200px;
+}
+.prices #onelesson,
+.prices #fourlessons,
+.prices #eightlessons,
+.prices #variable{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.prices #onelesson{
+    margin-top: 335px;
+    margin-left: 240px; 
+}
+.prices #eightlessons{
+    margin-top: 335px;
+    margin-left: 690px;
+}
+.prices #fourlessons{
+    margin-top: 595px;
+    margin-left: 240px;
+}
+.prices #variable{
+    margin-top: 595px;
+    margin-left: 690px;
+}
+.prices #price1,
+.prices #price2,
+.prices #price3{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.prices #price1{
+    margin-top: 400px;
+    margin-left: 240px;
+}
+.prices #price3{
+    margin-top: 400px;
+    margin-left: 690px;
+}
+.prices #price2{
+    margin-top: 660px;
+    margin-left: 240px;
+}
+.prices #text{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-size: 1rem;
+    margin-top: 660px;
+    margin-left: 690px;
+    line-height: 25px;
+}
+.prices #time1,
+.prices #time2,
+.prices #time3{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-size: 1rem;
+}
+.prices #time1{
+    margin-top: 420px;
+    margin-left: 240px;
+}
+.prices #time3{
+    margin-top: 420px;
+    margin-left: 690px;
+}
+.prices #time2{
+    margin-top: 680px;
+    margin-left: 240px;
+}
+.prices #first,
+.prices #second,
+.prices #third,
+.prices #forth{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.prices #first{
+    margin-top: 450px;
+    margin-left: 240px;
+}
+.prices #second{
+    margin-top: 450px;
+    margin-left: 690px;
+}
+.prices #third{
+    margin-top: 730px;
+    margin-left: 240px;
+}
+.prices #forth{
+    margin-top: 730px;
+    margin-left: 690px;
+}
+
+
+
 
 
 
