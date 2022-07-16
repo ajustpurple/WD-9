@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 html{
     font-family: 'Lato';
+    background-color: whitesmoke;
 }
+
 .header{
     width: 1200px;
     height: 900px;
@@ -18,7 +20,7 @@ html{
     height: 450px;
     border-radius: 50%;
     position: absolute;
-    background-color: rgb(194, 2, 2);
+    background-color: rgb(206, 23, 23);
     display: block;
     margin: 225px 375px;
     z-index: 1;
@@ -33,7 +35,7 @@ html{
 }
 .header #background{
     width: 600px;
-    height: 900px;
+    height: 950px;
     position: relative;
     display: block;
     z-index: 2;
@@ -126,3 +128,143 @@ html{
     text-decoration: none;
     font-size: 12px;
 }
+.circle{
+    width: 1200px;
+    height: 900px;
+    background-color: white;
+    position: relative;
+    margin: -25px auto;
+    overflow: hidden;
+}
+.circle h1{ 
+    position: absolute;
+    margin: 150px 95px auto;
+    font-size: 3rem;
+    line-height: 45px;
+    z-index: 2;
+}
+.circle #title{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 650px; 
+    font-size: 5rem;
+    letter-spacing: 1.3rem;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 2;
+}
+.circle #red{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(206, 23, 23);
+    display: block;
+    margin-top: 700px;
+    margin-left: -40px;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 40px rgb(206, 23, 23);
+}
+.list {
+    display: inline-block;
+    font-size: 17px;
+    list-style: none;
+    counter-reset: item;
+    z-index: 2;
+    margin-top: 375px;
+    margin-left: 100px;
+}
+.list li {
+    float: left;
+    padding-left: 65px;
+    padding-top: 75px;
+    position: relative;
+    z-index: 2;
+    line-height: 23px;
+}
+.list li::before {
+    content: "0" counter(item) ".";
+    counter-increment: item;
+    position:absolute;
+    top:20px;
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.article{
+    width: 1200px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    margin: 25px auto 0px;
+    overflow: hidden;
+}
+.article #background{
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    display: block;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(Opacity=10);
+    opacity: 0.1;
+    z-index: 1;
+}
+.article #none{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 125px;
+    padding-left: 120px; 
+    z-index: 2;
+}
+.article #rep{
+    position: absolute;
+    font-size: 1rem;
+    padding-top: 230px;
+    padding-left: 200px;
+    z-index: 2;
+    line-height: 25px;
+}
+.article #img1{
+    position: absolute;
+    padding-top: 350px;
+    padding-left: 200px;  
+    z-index: 2;
+}
+.article #img2{
+    position: absolute;
+    padding-top: 350px;
+    padding-left: 600px;  
+    z-index: 2;
+}
+.article #book1 {
+    margin-top: 605px;
+    margin-left: 200px;
+    display: inline-block;
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-bottom: 200px;
+    z-index: 3;
+    font-weight: bold;
+    line-height: 25px;
+}
+.article #book2 {
+    margin-top: 605px;
+    margin-left: 600px;
+    display: inline-block;
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    position: absolute;
+    z-index: 3;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+
+
+
+ 
+
+
+
