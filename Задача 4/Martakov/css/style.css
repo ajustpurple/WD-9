@@ -380,7 +380,7 @@ html{
 }
 .prices{
     width: 1200px;
-    height: 900px;
+    height: 800px;
     background-color: white;
     position: relative;
     margin: 0px auto;
@@ -388,11 +388,11 @@ html{
 }
 .prices #lessons{
     position: absolute;
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: bold;
     padding-top: 125px;
     padding-left: 120px; 
-    line-height: 50px;
+    line-height: 45px;
 }
 .prices #background1,
 .prices #background2,
@@ -511,13 +511,219 @@ html{
     margin-left: 690px;
 }
 .prices #third{
-    margin-top: 730px;
+    margin-top: 710px;
     margin-left: 240px;
 }
 .prices #forth{
     margin-top: 730px;
     margin-left: 690px;
 }
+.article3{
+    width: 1200px;
+    height: 900px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.article3 #lan{
+    position: absolute;
+    font-size: 2.7rem;
+    font-weight: bold;
+    padding-top: 125px;
+    padding-left: 120px; 
+    line-height: 45px;
+}
+
+.article3 #t1,
+.article3 #t2,
+.article3 #t3,
+.article3 #t4{
+    position: absolute;
+    color: black;
+    font-size: 1.1rem;
+    line-height: 25px;
+    z-index: 2;
+}
+.article3 #t1{
+    margin-top: 350px;
+    margin-left: 240px;
+}
+.article3 #t2{
+    margin-top: 590px;
+    margin-left: 240px;
+}
+.article3 #t3{
+    margin-top: 350px;
+    margin-left: 690px;
+}
+.article3 #t4{
+    margin-top: 590px;
+    margin-left: 690px;
+}
+.article3 #i1,
+.article3 #i2,
+.article3 #i3,
+.article3 #i4{
+    position: absolute;
+    z-index: 1;
+}
+.article3 #i1{
+    margin-top: 290px;
+    margin-left: 240px;
+}
+.article3 #i2{
+    margin-top: 520px;
+    margin-left: 240px;
+}
+.article3 #i3{
+    margin-top: 290px;
+    margin-left: 690px;
+}
+.article3 #i4{
+    margin-top: 520px;
+    margin-left: 690px;
+}
+.article4{
+    width: 1200px;
+    height: 900px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.article4 #open{
+    position: absolute;
+    font-size: 2.7rem;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-left: 120px; 
+    line-height: 45px;
+}
+.article4 #background{
+position: absolute;
+margin-left: 645px;
+z-index: 1;
+}
+.article4 #culture{
+    margin-top: 210px;
+    margin-left: 210px;
+    position: absolute;
+    color: black;
+    font-size: 1.1rem;
+    line-height: 25px;
+    z-index: 2;
+}
+.article4 #go{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 420px;
+    margin-left: 210px;
+}
+.article4 #no,
+.article4 #yes{
+    font-size: 7.1rem;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.article4 #no{
+    margin-left: 200px;
+    margin-top: 500px;
+    letter-spacing: -10px;
+}
+.article4 #yes{
+    margin-left: 440px;
+    margin-top: 615px;
+}.signup{
+    width: 1200px;
+    height: 650px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.signup #con{
+    position: absolute;
+    font-size: 2.7rem;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 120px; 
+}
+.signup #contacts{
+    position: absolute;
+    display: block;
+    margin-top: 120px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.signup #contacts li{
+    list-style-type: none;
+    margin-top: 25px;
+} 
+.signup #redd{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(206, 23, 23);
+    display: block;
+    margin-top: 450px;
+    margin-left: -40px;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 40px rgb(206, 23, 23);
+}
+.signup #background{
+    width: 35%;
+    height: 85%;
+    position: absolute;
+    filter: alpha(Opacity=10);
+    opacity: 0.1;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 670px;
+}
+.signup #want{
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 180px;
+    padding-left: 730px; 
+    line-height: 45px;
+    z-index: 2;
+
+}
+.signup #number{
+    position: absolute;
+    font-size: 1.1rem;
+    padding-top: 350px;
+    padding-left: 730px; 
+    line-height: 25px;
+    z-index: 2;
+}
+.footer{
+    width: 1200px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    margin: 0px auto;
+    border-width: 10px;
+    border-bottom-left-radius:3%;
+    border-bottom-right-radius:3%;
+}
+
+
+
+
+
+
+
+
 
 
 
