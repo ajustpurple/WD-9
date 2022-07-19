@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 html{
     font-family: 'Lato';
+    background-color: whitesmoke;
 }
+
 .header{
     width: 1200px;
     height: 900px;
@@ -18,7 +20,7 @@ html{
     height: 450px;
     border-radius: 50%;
     position: absolute;
-    background-color: rgb(194, 2, 2);
+    background-color: rgb(206, 23, 23);
     display: block;
     margin: 225px 375px;
     z-index: 1;
@@ -33,7 +35,7 @@ html{
 }
 .header #background{
     width: 600px;
-    height: 900px;
+    height: 950px;
     position: relative;
     display: block;
     z-index: 2;
@@ -126,3 +128,610 @@ html{
     text-decoration: none;
     font-size: 12px;
 }
+.circle{
+    width: 1200px;
+    height: 900px;
+    background-color: white;
+    position: relative;
+    margin: -25px auto;
+    overflow: hidden;
+}
+.circle h1{ 
+    position: absolute;
+    margin: 150px 95px auto;
+    font-size: 3rem;
+    line-height: 45px;
+    z-index: 2;
+}
+.circle #title{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 650px; 
+    font-size: 5rem;
+    letter-spacing: 1.3rem;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 2;
+}
+.circle #red{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(206, 23, 23);
+    display: block;
+    margin-top: 700px;
+    margin-left: -40px;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 40px rgb(206, 23, 23);
+}
+.list {
+    display: inline-block;
+    font-size: 17px;
+    list-style: none;
+    counter-reset: item;
+    z-index: 2;
+    margin-top: 375px;
+    margin-left: 100px;
+}
+.list li {
+    float: left;
+    padding-left: 65px;
+    padding-top: 75px;
+    position: relative;
+    z-index: 2;
+    line-height: 23px;
+}
+.list li::before {
+    content: "0" counter(item) ".";
+    counter-increment: item;
+    position:absolute;
+    top:20px;
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.article{
+    width: 1200px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    margin: 25px auto 0px;
+    overflow: hidden;
+}
+.article #background{
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    display: block;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(Opacity=10);
+    opacity: 0.1;
+    z-index: 1;
+}
+.article #none{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 125px;
+    padding-left: 120px; 
+    z-index: 2;
+}
+.article #rep{
+    position: absolute;
+    font-size: 1rem;
+    padding-top: 230px;
+    padding-left: 200px;
+    z-index: 2;
+    line-height: 25px;
+}
+.article #img1{
+    position: absolute;
+    padding-top: 350px;
+    padding-left: 200px;  
+    z-index: 2;
+}
+.article #img2{
+    position: absolute;
+    padding-top: 350px;
+    padding-left: 600px;  
+    z-index: 2;
+}
+.article #book1 {
+    margin-top: 605px;
+    margin-left: 200px;
+    display: inline-block;
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-bottom: 200px;
+    z-index: 3;
+    font-weight: bold;
+    line-height: 25px;
+}
+.article #book2 {
+    margin-top: 605px;
+    margin-left: 600px;
+    display: inline-block;
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    position: absolute;
+    z-index: 3;
+    font-weight: bold;
+    line-height: 25px;
+}
+.article2{
+    width: 1200px;
+    height: 1000px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.article2 #none{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 125px;
+    padding-left: 120px; 
+    line-height: 50px;
+}
+.article2 #japan{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 675px;
+}
+.article2 #lap1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(206, 23, 23);
+    display: block;
+    margin: 275px 200px;
+    z-index: 1;
+}
+.article2 #lap2{
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(250, 24, 24);
+    display: block;
+    margin: 590px 250px;
+    z-index: 1;
+}
+.article2 #four,
+.article2 #eight{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+.article2 #four{
+    margin-top: 340px;
+    margin-left: 255px;
+}
+.article2 #eight{
+    margin-top: 700px;
+    margin-left: 340px;
+}
+.article2 #one,
+.article2 #two{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-size: 1rem;
+    text-align: center;
+}
+.article2 #one{
+    margin-top: 410px;
+    margin-left: 275px;
+}
+.article2 #two{
+    margin-top: 770px;
+    margin-left: 340px;
+}
+.article2 #first,
+.article2 #second{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.arrow-3 {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px; 
+    display: inline-block; 
+    margin: 20px;
+}
+.arrow-3 .arrow-3-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-3 .arrow-3-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-3:hover .arrow-3-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-3:hover .arrow-3-iconcircle {
+    stroke-dashoffset: 0;
+}
+.article2 #first{
+    margin-top: 470px;
+    margin-left: 255px;
+    z-index: 2;
+}
+.article2 #second{
+    margin-top: 830px;
+    margin-left: 340px;
+    z-index: 2;
+}
+.prices{
+    width: 1200px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.prices #lessons{
+    position: absolute;
+    font-size: 2.7rem;
+    font-weight: bold;
+    padding-top: 125px;
+    padding-left: 120px; 
+    line-height: 45px;
+}
+.prices #background1,
+.prices #background2,
+.prices #background3{
+    width: 400px;
+    height: 225px;
+    position: absolute;
+    filter: alpha(Opacity=10);
+    opacity: 0.1;
+    z-index: 1;
+}
+.prices #background1{
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.prices #background2{
+    margin-top: 300px;
+    margin-left: 650px;
+}
+.prices #background3{
+    margin-top: 560px;
+    margin-left: 200px;
+}
+.prices #onelesson,
+.prices #fourlessons,
+.prices #eightlessons,
+.prices #variable{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.prices #onelesson{
+    margin-top: 335px;
+    margin-left: 240px; 
+}
+.prices #eightlessons{
+    margin-top: 335px;
+    margin-left: 690px;
+}
+.prices #fourlessons{
+    margin-top: 595px;
+    margin-left: 240px;
+}
+.prices #variable{
+    margin-top: 595px;
+    margin-left: 690px;
+}
+.prices #price1,
+.prices #price2,
+.prices #price3{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.prices #price1{
+    margin-top: 400px;
+    margin-left: 240px;
+}
+.prices #price3{
+    margin-top: 400px;
+    margin-left: 690px;
+}
+.prices #price2{
+    margin-top: 660px;
+    margin-left: 240px;
+}
+.prices #text{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-size: 1rem;
+    margin-top: 660px;
+    margin-left: 690px;
+    line-height: 25px;
+}
+.prices #time1,
+.prices #time2,
+.prices #time3{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-size: 1rem;
+}
+.prices #time1{
+    margin-top: 420px;
+    margin-left: 240px;
+}
+.prices #time3{
+    margin-top: 420px;
+    margin-left: 690px;
+}
+.prices #time2{
+    margin-top: 680px;
+    margin-left: 240px;
+}
+.prices #first,
+.prices #second,
+.prices #third,
+.prices #forth{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.prices #first{
+    margin-top: 450px;
+    margin-left: 240px;
+}
+.prices #second{
+    margin-top: 450px;
+    margin-left: 690px;
+}
+.prices #third{
+    margin-top: 710px;
+    margin-left: 240px;
+}
+.prices #forth{
+    margin-top: 730px;
+    margin-left: 690px;
+}
+.article3{
+    width: 1200px;
+    height: 900px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.article3 #lan{
+    position: absolute;
+    font-size: 2.7rem;
+    font-weight: bold;
+    padding-top: 125px;
+    padding-left: 120px; 
+    line-height: 45px;
+}
+
+.article3 #t1,
+.article3 #t2,
+.article3 #t3,
+.article3 #t4{
+    position: absolute;
+    color: black;
+    font-size: 1.1rem;
+    line-height: 25px;
+    z-index: 2;
+}
+.article3 #t1{
+    margin-top: 350px;
+    margin-left: 240px;
+}
+.article3 #t2{
+    margin-top: 590px;
+    margin-left: 240px;
+}
+.article3 #t3{
+    margin-top: 350px;
+    margin-left: 690px;
+}
+.article3 #t4{
+    margin-top: 590px;
+    margin-left: 690px;
+}
+.article3 #i1,
+.article3 #i2,
+.article3 #i3,
+.article3 #i4{
+    position: absolute;
+    z-index: 1;
+}
+.article3 #i1{
+    margin-top: 290px;
+    margin-left: 240px;
+}
+.article3 #i2{
+    margin-top: 520px;
+    margin-left: 240px;
+}
+.article3 #i3{
+    margin-top: 290px;
+    margin-left: 690px;
+}
+.article3 #i4{
+    margin-top: 520px;
+    margin-left: 690px;
+}
+.article4{
+    width: 1200px;
+    height: 900px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.article4 #open{
+    position: absolute;
+    font-size: 2.7rem;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-left: 120px; 
+    line-height: 45px;
+}
+.article4 #background{
+position: absolute;
+margin-left: 645px;
+z-index: 1;
+}
+.article4 #culture{
+    margin-top: 210px;
+    margin-left: 210px;
+    position: absolute;
+    color: black;
+    font-size: 1.1rem;
+    line-height: 25px;
+    z-index: 2;
+}
+.article4 #go{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 420px;
+    margin-left: 210px;
+}
+.article4 #no,
+.article4 #yes{
+    font-size: 7.1rem;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.article4 #no{
+    margin-left: 200px;
+    margin-top: 500px;
+    letter-spacing: -10px;
+}
+.article4 #yes{
+    margin-left: 440px;
+    margin-top: 615px;
+}.signup{
+    width: 1200px;
+    height: 650px;
+    background-color: white;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.signup #con{
+    position: absolute;
+    font-size: 2.7rem;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 120px; 
+}
+.signup #contacts{
+    position: absolute;
+    display: block;
+    margin-top: 120px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.signup #contacts li{
+    list-style-type: none;
+    margin-top: 25px;
+} 
+.signup #redd{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(206, 23, 23);
+    display: block;
+    margin-top: 450px;
+    margin-left: -40px;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 40px rgb(206, 23, 23);
+}
+.signup #background{
+    width: 35%;
+    height: 85%;
+    position: absolute;
+    filter: alpha(Opacity=10);
+    opacity: 0.1;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 670px;
+}
+.signup #want{
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 180px;
+    padding-left: 730px; 
+    line-height: 45px;
+    z-index: 2;
+
+}
+.signup #number{
+    position: absolute;
+    font-size: 1.1rem;
+    padding-top: 350px;
+    padding-left: 730px; 
+    line-height: 25px;
+    z-index: 2;
+}
+.footer{
+    width: 1200px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    margin: 0px auto;
+    border-width: 10px;
+    border-bottom-left-radius:3%;
+    border-bottom-right-radius:3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
