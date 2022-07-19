@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Agency FB Bold';
+    src: url(../fonts/Agency\ FB.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Agency FB Bold';
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+.container {
+    margin: 0 151px;
+}
+.header__contacts {
+    background-color: #51092a;
+    height: 78px;
+}
+.contact-us {
+    padding: 29px 0 20px 208px;
+    float: left;
+}
+.contacts:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.contact-us__item {
+    float: left;
+    padding-right: 98px;
+    position: relative;
+}
+.change-color {
+    color: #FAFAFA80;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+.contact-us__item--geo::before {
+    content: "";
+    background-image: url(../icon/icon-location.png);
+    width: 23.5px;
+    height: 23.5px;
+    position: absolute;
+    left: -30px;
+}
+.contact-us__item--phone::before {
+    content: "";
+    background-image: url(../icon/icon-phone.png);
+    width: 20.5px;
+    height: 20.5px;
+    position: absolute;
+    left: -30px;
+}
+.contact-us__item--envelope::before {
+    content: "";
+    background-image: url(../icon/icon-mail.png);
+    width: 25px;
+    height: 18px;
+    position: absolute;
+    left: -30px;
+}
+.contact-us-social {
+    float: right;
+}
+.contact-us-social__links {
+    margin: 26px 0;
+    margin-right: 134px;
+}
+.contact-us-social__link {
+    float: left;
+    padding-right: 25px;
+}
+.header__menu {
+    height: 138px;
+    background-color: pink;
+}
+.header__menu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo {
+    background-color: #FD0054;
+    float: left;
+    height: 138px;
+    width: 156px;
+    text-align: center;
+}
+.logo__icon {
+    display: inline-block;
+    width: 50px;
+    height: 28.5px;
+    margin-top: 26.5px;
+}
+.logo__text {
+    text-align: center;
+}   
+.nav {
+    float: left;
+    background-color: #2B2024;
+    height: 100%;
+
+}
+.nav__items {
+    display: inline-block;
+}
+.nav__item {
+    display: inline-block;
+    padding-right: 78px;
+}
