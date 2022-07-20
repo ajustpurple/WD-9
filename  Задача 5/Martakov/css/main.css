@@ -1,0 +1,244 @@
+
+@font-face {
+    font-family: 'Agency FB Bold';
+    src: url(../fonts/Agency\ FB.ttf);
+}
+.html{
+    font-family: 'Agency FB Bold';
+}
+.header{
+    display: block;
+    width: 1628px;
+    height: 216px;
+    left: 5.5%;
+    top: 0%;
+}
+.info{
+    width: 1628px;
+    height: 78px;
+    left: 5.5%;
+    top: 0%;
+    position: fixed;
+    background: #2B2024;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    z-index: 5;
+}
+#contacts{
+    list-style-type: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 9%;
+}
+
+#contacts li{
+    display: inline-block;
+    margin: 0 30px 0;
+}
+#contacts p{
+    float: right;
+    margin-top: 0;
+    margin-left: 6px;
+    font-size: 24px;
+    color: white;
+}
+#sociallinks{
+    list-style-type: none;
+    margin-left: 75%;
+    margin-top: 15px;
+}
+#sociallinks li{
+    display: inline-block;
+    margin: 0 7px 0;
+}
+.top-bar{
+    position: fixed;
+    width: 1628px;
+    height: 138px;
+    margin-top: 78px;
+    margin-left: 5.5%;
+    z-index: 5;
+}
+#rectangle1{ 
+    position: absolute;
+    width: 156px;
+    height: 138px;
+    background-color: #FD0054;
+}
+#menu img{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#menu span{
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 82px;
+    margin-left: 30px;
+}
+#rectangle2{
+    position: absolute;
+    width: 1126px;
+    height: 138px;
+    left: 155px;
+    background-color: #2B2024;
+}
+#rectangle3{
+    list-style-type: none;
+    margin-top: 56px;
+    margin-left: 150px;
+}
+#rectangle3 li{
+    display: inline-block;
+    margin: 0 30px 0;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+#rectangle3 li a{
+    text-decoration: none;
+    color: white;
+}
+#rectangle4{
+    width: 347px;
+    height: 138px;
+    background-color: #FD0054;
+    position: absolute;
+    left: 1281px;
+}
+#rectangle4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+#what{
+    margin: 56px 40px;
+}
+.arrow1{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    opacity: 0.25;
+}
+.arrow2{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    opacity: 0.5;
+}
+.arrow3{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    opacity: 0.75;
+}
+.arrow4{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+#background1{
+    width: 1920px;
+    height: 1081px;
+    background-color: #FD0054;
+    position: absolute;
+    z-index: 1;
+}
+#background2{
+    width: 1920px;
+    height: 1081px;
+    background-color: #2B2024;
+    opacity: 0.5;
+    z-index: 2;
+    position: absolute;
+
+}
+#rectangle5{
+    box-sizing: border-box;
+    position: absolute;
+    width: 475px;
+    height: 503px;
+    left: 722px;
+    top: 398px;
+    border: 10px solid #FD0054;
+    transition: all 0.3s ease;
+    z-index: 3;
+}
+#rectangle5:hover{
+    box-shadow: inset 0px 0 0 10px #FD0054;
+}
+#make{
+    list-style-type: none;
+    color: white;
+    font-size: 2rem;
+    margin: 75px 27%;
+    position: absolute;
+    opacity: 0.8;
+}
+#body1{
+    list-style-type: none;
+    color: white;
+    font-size: 8rem;
+    letter-spacing: -7px;
+    margin: 200px 13%;
+    position: absolute;
+    z-index: 3;
+}
+#rectangle5 img{
+    margin-top: 315px;
+    margin-left: 33%;
+}
+#bmi{
+    width: 1640px;
+    height: 327px;
+    position: absolute;
+    top: 1000px;
+    left: 5.5%;
+    background-color: white;
+    z-index: 3;
+}
+#rectangle6{
+    width: 1640px;
+    height: 239px;
+    position: absolute;
+    background-color: black;
+}
+#rectangle6 h1{
+    color: white;
+    position: absolute;
+    left: 5.91%;
+    top: 25%;
+    font-family: 'Agency FB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
