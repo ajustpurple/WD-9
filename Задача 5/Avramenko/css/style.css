@@ -11,6 +11,9 @@ body {
     font-size: 24px;
     color: #fff;
 }
+.header {
+    position: relative;
+}
 .container {
     margin: 0 151px;
 }
@@ -38,6 +41,7 @@ body {
 .link {
     text-decoration: none;
     color: #fff;
+    font-weight: 700;
 }
 .contact-us__item--geo::before {
     content: "";
@@ -74,9 +78,9 @@ body {
     float: left;
     padding-right: 25px;
 }
+/*header top */
 .header__menu {
     height: 138px;
-    background-color: pink;
 }
 .header__menu::after {
     content: "";
@@ -102,13 +106,379 @@ body {
 .nav {
     float: left;
     background-color: #2B2024;
-    height: 100%;
+    height: 138px;
 
 }
 .nav__items {
     display: inline-block;
+    margin: 57px 104px 52px 162px;
 }
 .nav__item {
     display: inline-block;
     padding-right: 78px;
 }
+.button {
+    background-color: #FD0054;
+    height: 138px;
+}
+.button::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.button__text {
+    float: left;
+    margin: 59px 29px 50px 5px;
+}
+.button__animation {
+    float: left;
+}
+.button__elements {
+    margin-top: 54px;
+}
+.button__element {
+    display: inline-block;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+}
+.button__element1 {
+    color: #ff0078;
+}
+.button__element2 {
+    color: #ff59a4;
+}
+.button__element3 {
+    color: #ffaed0;
+}
+.button__element4 {
+    color: #fafafa;
+}
+@keyframes change-color {
+    to {
+        color: #2B2024;
+    }
+}
+/*header bottom*/
+.bg-top  {
+    width: 100%;
+    height: 1081px;
+    background-color: #a10037;
+    margin-top: -216px;
+    text-align: center;
+    padding-top: calc(182px + 216px);
+}
+.frame {
+    width: 475px;
+    height: 500px;
+    border: 10px solid #FD0054;
+    display: inline-block;
+}
+.frame__inner-wrap {
+    text-align: center;
+    margin-top: 71px;
+}
+.frame__title {
+    font-size: 50px;
+}
+.frame__subtitle {
+    font-size: 200px;
+}
+.calc-bmi {
+    width: 1640px;
+    height: 327px;
+    margin: -90px auto 0;
+}
+.calc-bmi__top {
+    height: 239px;
+    background-color: #2B2024;
+}
+.calc-bmi__text {
+    font-size: 48px;
+    float: left;
+    margin-right: 70px;
+    margin-top: 55px;
+    margin-left: 97px;
+}
+.calc-bmi__text--color {
+    font-size: 24px;
+    color: #FD0054;
+}
+.calc-form {
+    display: inline-block;
+    margin-top: 50px;
+}
+.calc__entry-field {
+    margin-top: 14px;
+}
+.input {
+    width: 200px;
+    height: 52px;
+    background-color: #564b4f;
+    font-weight: 700;
+    outline: none;
+    margin-right: 20px;
+    border: none;
+}
+.calc__text {
+    margin-top: 17px;
+}
+.calc__text::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.calc__text-height {
+    float: left;
+}
+.calc__text-weight {
+    float: right;
+    margin-right: 165px;
+}
+.calc-form__button {
+    float:right;
+    position: relative;
+    left: 465px;
+    bottom: 95px;
+}
+.calc-form__btn {
+    width: 209px;
+    height: 52px;
+    background-color: #FD0054;
+    font-size: 24px;
+    color: #fafafa;
+    font-weight: 700;
+}
+.calc-bmi__bottom {
+    padding-top: 53px;
+}
+.calc-bmi__circle {
+    height: calc(327px - 239px);
+    border-radius: 200%;
+    background-color: pink;
+}
+/*Calculate form*/
+.our-classes {
+    width: 1525.5px;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-classes__subtitle {
+    margin-top: 114px;
+    margin-bottom: 60px;
+}
+.our-classes__line {
+    display: inline-block;
+    width: 45px;
+    height: 0;
+    border: 1px solid #FD0054;
+    margin-bottom: 1px;
+    position: relative;
+    bottom: 10px;
+
+}
+.our-classes__text {
+    color: #FD0054;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+}
+.our-classes__title {
+    color: #2B2024;
+    font-size: 60px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+/*Our classes title*/
+.our-classes__cards {
+    width: 100%;
+}
+.card {
+    width: 340px;
+    height: 444px;
+    border: 5px solid #e5e4e5;
+    text-align: left;
+    font-weight: 700;
+    display: inline-block;  /* Если card блок как мне выровнять его по макету? и как убрать margin у последнего блока?*/
+}
+.card__inner {
+    margin: 45px 40.86px 51px 42px;
+}
+.card__img {
+    width: 57.5px;
+    height: 70.5px;
+    margin-bottom: 109.38px;
+}
+.card__subtitle {
+    color: rgba(43, 32, 36, 0.501961);
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.card__title {
+    color: #2B2024;
+    font-size: 32px;
+    margin-bottom: 26.04px;
+}
+.card__line {
+    width: 100%;
+    border: 1px solid #DEDEDE;
+    margin-bottom: 48.96px;
+}
+.card__info-text {
+    font-size: 20px;
+    float: left;
+}
+.card__link {
+    text-decoration: none;
+    color: #2B2024;
+    font-weight: 700;
+}
+.card__info-icon {
+    float: right;
+}
+/*Our classes Cards*/
+.about-us {
+    width: 100%;
+    margin-top: 114px;
+}
+.about-us::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.about-us__container {
+    width: 50%;
+    height: 770px;
+    padding: 44px 73px 44px 0;
+    float: left;
+}
+.about-us__left {
+    width: 100%;
+    height: 100%;
+    background-color: #2B2024;
+    padding: 83px 110px 78px 140px;
+}
+.category {
+    display: inline-block;
+}
+.category__line {
+    width: 45px;
+    height: 10px;
+    border-top: 2px solid #FD0054;
+    display: inline-block;
+    margin-right: 16.57px;
+}
+.category__text {
+    font-size: 32px;
+    color: #FD0054;
+    float: right;
+    font-weight: 700;
+}
+.title {
+    font-size: 60px;
+    color: #FAFAFA;
+    font-weight: 700;
+}
+.about-us__line {
+    width: 94.2px;
+    height: 10px;
+    border-top: 2px solid #FD0054;
+    float: right;
+    margin-right: 100px;
+
+}
+.subtitle {
+    font-size: 24px;
+    color: #FAFAFA80;
+    font-weight: 400;
+}
+.about-us__margin {
+    margin-bottom: 39px;
+}
+.about-us__margin2 {
+    margin-bottom: 14px;
+}
+.about-us__margin3 {
+    margin-bottom: 64px;
+}
+.about-us__cards {
+    width: 100%;
+}
+.card-black {
+    width: 45%;
+    float: left;
+}
+.card-black__icon {
+    width: 40px;
+    height: 50px;
+}
+.card-black__text {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 31px;
+    margin-bottom: 19px;
+}
+.card-black__gym {
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-black__line {
+    width: 100%;
+    border: 1px solid #FD0054;
+    margin-bottom: 25px;
+}
+.card-black__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FAFAFA80;
+    display: inline-block;
+}
+.card-black__link {
+    float: right;
+}
+.card-black__icon-read {
+    width: 55px;
+    height: 59px;
+}
+.about-us_card-right {
+    float: right;
+}
+/*about us left section */
+.about-us__right {
+    width: 50%;
+    height: 767px; /* не смог задать в процентах */
+    float: right;
+    position: relative;
+}
+.about-us__bg {
+    width: 70%;
+    height: 100%;
+    background-color: #e40041;
+}
+.card-right {
+    width: 554px;
+    height: 225px;
+    background-color: #FD0054;
+    position: absolute;
+    bottom: 110px;
+    right: 0;
+    padding-top: 42px;
+    padding-left: 65px;
+}
+.card-right__text {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.card-right__link {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2B2024;
+    margin-right: 24.5px;
+}
+/*about us right section*/
