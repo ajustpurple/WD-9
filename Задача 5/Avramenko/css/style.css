@@ -482,3 +482,395 @@ body {
     margin-right: 24.5px;
 }
 /*about us right section*/
+.time-table__container {
+    width: 1640px;
+    margin: 114px auto 0;
+    text-align: center;
+}
+.time-table__title {
+    color: #2B2024;
+    margin-top: 39px;
+    margin-bottom: 90px;
+}
+.table {
+    width: 1640px;
+    height: 705px;
+    border: 1px solid black;
+    color: #2B2024;
+}
+.table__head {
+    border: 1px solid black;
+    padding: 45px;
+}
+.table th {
+    border: 1px solid #E2E2E2;
+    padding: 45px;
+    background-color: #F3F1F1;
+}
+.table__time {
+    color: #909090;
+    font-weight: 400;
+}
+.table td {
+    border: 1px solid #E2E2E2;
+    text-align: center;
+    vertical-align: middle;
+}
+.table-text__title {
+    color: #FD0054;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.table-text__name {
+    font-size: 20px;
+    font-weight: 400;
+}
+/*table-time section*/
+.testimonial__container {
+    width: 1640px;
+    margin: 114px auto 0;
+}
+.testimonial__content {
+    height: 400px;
+    background-color: #2B2024;
+    position: relative;
+}
+.testimonial__category {
+    position:absolute;
+    top: 59px;
+    left: 122px;
+}
+.testimonial__title {
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    top: 145px;
+    left: 122px;
+}
+.testimonial__square {
+    width: 91px;
+    height: 91px;
+    background-color: #FD0054;
+    position: absolute;
+    top: 54px;
+    left: 481px;
+}
+.testimonial__name {
+    font-size: 32px;
+    position: absolute;
+    top: 69px;
+    left: 600px;
+}
+.testimonial__stars {
+    color: #564b4f;
+    position: absolute;
+    top: 110px;
+    left: 600px;
+}
+.testimonial__stars--red {
+    color: #FD0054;
+}
+.testimonial__text {
+    font-weight: 400;
+    color: #FAFAFA80;
+    position:absolute;
+    top: 215px;
+    left: 481px;
+}
+.testimonial__quotes {
+    font-size: 300px;
+    color: #423439;
+    position: absolute;
+    right: 540px;
+    bottom: 175px;
+}
+.testimonial__number {
+    font-size: 30px;
+    color: #FD0054;
+    position: absolute;
+    bottom: 118px;
+    right: 161.5px;
+}
+.testimonial__triangle-left {
+    position: absolute;
+    bottom: 94.61px;
+    right: 179.04px;
+}
+.testimonial__triangle-right {
+    position: absolute;
+    bottom: 103.61px;
+    right: 128.04px;
+}
+/*testimonial section*/
+.price {
+    width: 100%;
+    height: 1026px;
+    background-color: #AB0139;
+    text-align: center;
+    margin-top: 114px;
+}
+.price__title {
+    font-size: 60px;
+    margin-top: 234px;
+    display: inline-block;
+}
+.price__cards {
+    margin-top: 58px;
+}
+.price-card {
+    width: 386px;
+    height: 536px;
+    display: inline-block;
+    background-color: #2B2024;
+}
+.price-card__title {
+    font-size: 32px;
+    display: inline-block;
+    margin-top: 51px;
+}
+.price-card__subtitle {
+    font-size: 20px;
+    color: #FAFAFA80;
+    margin-top: 12px;
+}
+.price-card__cost {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.price-card__dollar {
+    font-size: 70px;
+    display: inline-block;
+}
+.func {
+    font-size: 20px;
+    position: relative;
+    display: inline-block
+}
+.func::before {
+    content: "";
+    background-image: url(../icon/icon-done.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 13px;
+    position: absolute;
+    left: -25px;
+}
+.price-card__link {
+    display: inline-block;
+    color: #fafafa;
+    font-size: 20px;
+    text-decoration: none;
+    border: 5px solid #fafafa;
+    padding: 21px 34px 13px;
+}
+.margin-for-func {
+    margin-bottom: 5px;
+}
+.price-card__btn {
+    margin-top: 55px;
+}
+.price-card--bg--red {
+    background-color: #FD0054;
+}
+.indent {
+    display: inline-block; /*пустой блок для отступа*/
+    width: 55px;
+}
+/*price section*/
+.coaches {
+    text-align: center;
+    margin-top: 114px;
+}
+.coaches__category {
+    margin-bottom: 39px;
+}
+.coaches-title {
+    color: #2B2024;
+    margin-bottom: 23.5px;
+}
+.coaches__line {
+    width: 85.5px;
+    display: inline-block;
+    border: 1px solid #FD0054;
+    margin-bottom: 35.5px;
+}
+.coaches__subtitle {
+    color: #909090;
+}
+.coaches__squares {
+    margin-top: 156px;
+    }
+.colored-square {
+    display: inline-block;
+    text-align: left;
+}
+.colored-square__item {
+    width: 351px;
+    height: 625px;
+    background-color: #ffa0c7;
+    margin-bottom: 65px;
+}
+.colored-square__name {
+    font-size: 32px;
+    color: #2B2024;
+    margin-bottom: 25px;
+}
+.colored-square__biography {
+    font-weight: 400;
+    color: #909090; 
+}
+.coaches__indent {
+    width: 10px;
+    display: inline-block;
+}
+.colored-square__item--color2 {
+    background-color: #ff006e;
+}
+.colored-square__item--color3 {
+    background-color: #ff0048;
+}
+.colored-square__item--color4 {
+    background-color: #ff006e;
+}
+.colored-square__item--color5 {
+    background-color: #ffa0c7;
+}
+/*Coaches section*/
+.icons {
+    text-align: center;
+    margin-top: 114px;
+}
+.icons-elements {
+    display: inline-block;
+}
+.icons-elements__element {
+    text-align: center;
+    float: left;
+    margin-right: 128px;
+}
+.icons-elements__number {
+    color: #2B2024;
+    font-size: 80px;
+}
+.icons-elements__element4 {
+    margin-right: 0;
+}
+/*icons section*/
+.news {
+    background-color: #F4F4F4;
+}
+.news__container { /* как лучше задавать размер контейнеру? паддинг или размер?*/
+    padding: 135px 284px 141px;
+}
+.news__btn {
+    float: right;
+}
+.news__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FD0054;
+    padding: 21px 34px 13px 36px;
+    border: 5px solid #FD0054;
+}
+.news__cards {
+    margin-top: 88px;
+}
+.news-card {
+    width: 414px;
+    height: 575px;
+    display: inline-block;
+    margin-right: 6px;
+}
+.news-card__square {
+    height: 50%;
+    background-color: #FD0054;
+}
+.news-card__content {
+    height: 50%;
+    background-color: #fff;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+.news-card__title {
+    font-size: 32px;
+    color: #2B2024;
+    padding-top: 38px;
+}
+.news-card__text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #909090;
+    margin-top: 17px;
+}
+.news-card__info {
+    margin-top: 5px;
+}
+.news-card__time {
+    font-size: 20px;
+    font-weight: 400;
+    color: #909090;
+    float: left;
+    margin-top: 40px;
+}
+.news-card__links {
+    float: right;
+}
+.news-card__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FD0054;
+}
+.news-card__arrow {
+    text-decoration: none;
+    color: #FD0054;
+    font-size: 60px;
+}
+.news-card--no-margin {
+    margin-right: 0;
+}
+/*news & articles section*/
+.footer {
+    background-color: #2B2024;
+}
+.footer__container {
+    padding: 120.72px 140px 62px;
+}
+.footer__info {
+    display: inline-block;
+    margin-right: 215.5px;
+}
+.footer__logo {
+    font-size: 48px;
+    color: #FD0054;
+}
+.footer__icon {
+    width: 70px;
+    height: 40px;
+    margin-right: 24px;
+}
+.footer__text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #909090;
+    margin-top: 37px;
+}
+.list {
+    display: inline-block;
+    margin-right: 230px;
+}
+.list__title {
+    font-size: 32px;
+    color: #FD0054;
+    margin-bottom: 63px;
+}
+.list__item {
+    margin-bottom: 23px;
+}
+.footer__form {
+    display: inline-block;
+}
+.footer__email {
+    width: 350px;
+    height: 66px;
+}
