@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600;700&display=swap');
+* {
+
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.container{
+    margin: 0 auto;
+    width: 1110px;
+}
+.container-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2rem;
+}
+.menu{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu li{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: gray;
+}
+.links{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links li{
+    display: inline-block;
+}
+.back{
+    background-color: #D49090;
+    height: 600px;
+}
+.container-2{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.h1{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+.h2{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 10;
+    margin-bottom: 40px;
+}
+button{
+    border: 1px solid white;
+    color: white;
+    background-color: #D49090;
+    padding: 10px 40px;
+}
+#img1{
+    width: 400px;
+}
+.distributors img{
+    width: 100%;
+}
+.categories{
+    margin-top: 40px;
+    height: 630px;
+}
+.h3{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 1.3rem;
+    font-weight: 10;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.container-3{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.firsttypeimg{
+    width: 740px;
+}
+.firsttypeimg img{
+    width: 100%;
+}
+.secondtypeimg{
+    width: 365px;
+}
+.secondtypeimg img{
+    width: 100%;
+}
+.popular{
+    margin-top: 40px;
+    height: 780px;
+}
+.products{
+display: block;
+float: right;
+margin-top: -20px;
+}
+.popularproducts{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.popularproducts li a{
+    text-decoration: none;
+    color: gray;
+}
+.container-4{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgsmall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img1{
+    width: 267px;
+
+}
+.img1 img{
+    width: 100%;
+}
+.img2{
+    order: 2;
+    width: 278px;
+}
+.img2 img{
+    width: 100%;
+}
