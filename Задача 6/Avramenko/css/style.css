@@ -117,7 +117,7 @@ body {
 }
 .subtitle {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: normal;
 }
 .categories {
     height: 530px;
@@ -133,6 +133,7 @@ body {
     width: 372px;
 }
 /*section shop and categories end*/
+/* popular product section start*/
 .popular-procuct__top-section {
     display: flex;
     justify-content: space-between;
@@ -146,14 +147,183 @@ body {
 .popular-product-item {
     margin-left: 16px;
 }
-.popular-product__bot-section {
-    background-color: red;
+.images {
     display: flex;
 }
-.popular-product__elements {
-    display: inline-flex;
-    flex-wrap: wrap;
+.left-part {
+    flex-basis: 550px;
+    padding-top: 10px;
 }
-.popular-product__element {
-    
+.right-part .tile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.right-part .tile img {
+    margin: 10px;
+}
+/*popular product section end*/
+/*about-miralou section start*/
+.about-miralou__container {
+    display: flex;
+    height: 520px;
+    width: 100%;
+}
+.about-miralou__left {
+    flex-shrink: 0;
+}
+.about-miralou__left img {
+    height: 100%;
+}
+.about-miralou__right {
+    height: 100%;
+    width: 100%;
+    background-color: #fef0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 68px;
+}
+.about-miralou__link {
+    font-weight: bold;
+    font-size: 24px;
+}
+/*about-miralou section end*/
+/*lates-news__cards start*/
+.lates-news__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.lates-news__cards img {
+    width: 370px;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-link {
+    font-weight: bold;
+    font-size: 20px;
+}
+/*lates-news__cards end*/
+/*jenny-wilson section start*/
+.jenny-wilson {
+    background-color: #fef0e0;
+    width: 100%;
+}
+.jenny-wilson__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.arrow {
+    font-size: 48px;
+}
+.mgright50 {
+    margin-right: 50px;
+}
+.mgleft50 {
+    margin-left: 50px;
+}
+/*jenny-wilson section end*/
+.follow__images {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.inst-img {
+    width: 270px;
+}
+.follow__img-dual {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.subscribe__inner {
+    height: 425px;
+    background-color: #de888e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.girl {
+    height: 500px;
+}
+.form-email {
+    background-color: #de888e;
+    border: 1px solid #fff;
+    outline: blue;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.title--white {
+    color: #fff;
+}
+.subtitle--white {
+    color: #fff;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+}
+.form-btn {
+    background-color: #de888e;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: blue;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.footer {
+    background-color: #414141;
+}
+.foot__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column__title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+.column__subtitle {
+    font-size: 14px;
+    color: grey;
+}
+.social__items {
+    display: flex; 
+    justify-content: space-between;
+}
+.social__img {
+    width: 30px;
+    height: 30px;
+}
+.column__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+}
+.column__list-item {
+    margin-bottom: 20px;
+}
+.address {
+    color: grey;
+}
+.foot__bot {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    padding-bottom: 10px;
+}
+.mgtop100 {
+    margin-top: 100px;
 }
