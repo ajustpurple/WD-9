@@ -1,0 +1,50 @@
+.main-screen {
+  padding-top: 130px;
+}
+.main-screen__left .h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #191A15;
+}
+.main-screen .curve {
+  margin-top: 30px;
+}
+.main-screen__p {
+  margin-top: 50px;
+  font-size: 18px;
+  color: #000;
+}
+.main-screen__buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.main-screen__buttons .btn-try-free {
+  background-color: #54BD95;
+  color: #F8F8FA;
+  padding: 20px 30px;
+  border-radius: 40px;
+  margin-right: 40px;
+}
+.main-screen__buttons .btn-try-free a {
+  color: #F8F8FA;
+}
+.main-screen__buttons .btn-try-free:hover {
+  background-color: #4a856f;
+}
+.main-screen__buttons .icon-play {
+  margin-right: 14px;
+}
+.main-screen__buttons .icon-play__img {
+  width: 40px;
+  height: 40px;
+}
+.main-screen__buttons .btn-view-demo {
+  font-size: 18px;
+  color: #191A15;
+  position: relative;
+}
+.main-screen__buttons .btn-view-demo a {
+  color: #191A15;
+}
+/*# sourceMappingURL=l-main-screen.css.map */
