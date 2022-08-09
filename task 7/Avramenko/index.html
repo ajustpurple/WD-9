@@ -8,10 +8,14 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="gradient">
     <div class="container">
         <header class="header">
             <div class="logo">
                 <a href="index.html">Biccas</a>
+            </div>
+            <div class="header__burger">
+                <span></span>
             </div>
             <nav class="nav">
                 <ul class="nav__list">
@@ -89,17 +93,54 @@
                     <div class="photo-man">
                         <img class="photo-man__img" src="img/main-screen/man.jpg" alt="man">
                     </div>
+                    <img class="card-img" src="img/main-screen/card.png">
+                    <img class="moneds-icon" src="img/main-screen/icon-moneds.svg" alt="moneds">
+                    <img class="message-icon" src="img/main-screen/icon-massenge.svg" alt="icon-message">
+                    <img class="total-img" src="img/main-screen/total.png" alt="total-income">
+                    <div class="check-icon">
+                         <img class="check-icon__img" src="img/main-screen/Vector 25.svg">
+                    </div>
                     <div class="enter-amount">
                         <div class="enter-amount__title">
                             Enter amount
                         </div>
+                        <form action="#" name="enter-amount" method="post">
+                            <input class="enter-amount__text" type="text" 
+                            name="enter-amount__text" value="$450..00">
+                            <button class="enter-amount__btn">Send</button>
+                        </form>
+                        <div class="enter-amount__line"></div>
                     </div>
-
                 </div>
-
-
             </div>
+            <section class="firms">
+                <div class="firms__title">
+                    More than 25,000 teams use Collabs
+                </div>
+                <div class="firms__items">
+                    <a class="firms__link" href="#">
+                        <img class="firms__img" src="img/firms/unsplash.png" alt="firm">
+                    </a>
+                    <a class="firms__link" href="#">
+                        <img class="firms__img" src="img/firms/notion.png" alt="firm">
+                    </a>
+                    <a class="firms__link" href="#">
+                        <img class="firms__img" src="img/firms/intercom.png" alt="firm">
+                    </a>
+                    <a class="firms__link" href="#">
+                        <img class="firms__img" src="img/firms/descript.png" alt="firm">
+                    </a>
+                    <a class="firms__link" href="#">
+                        <img class="firms__img" src="img/firms/grammarly.png" alt="firm">
+                    </a>
+                </div>
+            </section>
+           
         </main>
     </div>
+    </div>
+    
 </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app/js/main.js"></script>
 </html>
