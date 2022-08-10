@@ -1,0 +1,17 @@
+@mixin button {
+    background-color: #54BD95;
+    color: #F8F8FA;
+}
+$btn-hover: #4a856f;
+.header_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    .header_logo {
+        font-size: 50px;
+        font-weight: 600;
+        color: #54BD95;
+    }
+}
