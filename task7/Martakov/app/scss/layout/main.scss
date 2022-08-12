@@ -1,0 +1,133 @@
+@mixin button {
+    background-color: #54BD95;
+    color: #F8F8FA;
+}
+@mixin icon {
+    position: absolute;
+    z-index: 2;
+}
+$btn-hover: grey;
+$text-color: black;
+.mainscreen{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    .left-side{
+        height: 578px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .left-side-h1{
+            font-size: 5rem;
+            color: $text-color;
+        }
+        .left-side-p{
+            color: $text-color;
+        }
+        .left-side-btns{
+            width: 270px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .btn-try-free{
+                @include button();
+                padding: 20px 15px;
+                border-radius: 35px;
+                a {
+                    color: #F8F8FA;
+                }
+                &:hover {
+                    background-color: $btn-hover;
+                }
+            }
+        }
+    }
+    .right-side{
+        height: 578px;
+        width: 50%;
+        display: block;
+        position: relative;
+        .img-human{
+            position: absolute;
+            z-index: 1;
+            margin: 26px 90px;
+        }
+        .img-card{
+            @include icon;
+            margin-top: 320px;
+            margin-left: 400px;
+        }
+        .img-total{
+            @include icon;
+            margin-top: 390px;
+        }
+        .img-icon{
+            @include icon;
+            margin-top: 530px;
+            margin-left: 380px;
+        }
+        .img-coins{
+            @include icon;
+            margin-top: 100px;
+            margin-left: 470px;
+        }
+        .img-blue{
+            @include icon;
+            margin-top: 200px;
+            margin-left: 30px;
+        }
+        .img-ok{
+            @include icon;
+            margin-top: 213px;
+            margin-left: 45px;
+        }
+        .amount{
+            position: relative;
+            margin-top: 40px;
+            .enter-amount-text{
+                @include icon;
+                width: 262px;
+                height: 78px;
+                border-radius: 10px;
+                border: none;
+                font-weight: 500;
+                font-size: 16px;
+                padding-left: 15px;
+                padding-top: 10px;
+            }
+            .enter-amount-btn{
+                position: absolute;
+                z-index: 3;
+                padding: 5px 16px;
+                border: none;
+                border-radius: 40px;
+                background-color: #54BD95;
+                color: #F8F8FA;
+                font-size: 1rem;
+                font-weight: 500;
+                position: absolute;
+                top: 25px;
+                left: 180px;
+            }
+            .enter-amount-title{
+                position: absolute;
+                z-index: 4;
+                margin-top: 10px;
+                margin-left: 15px;
+            }
+            .enter-amount-title::before{
+                position: absolute;
+                width: 227px;
+                height: 0px;
+                top: 50px;
+                border: 1px solid rgb(187, 187, 187);
+                content: "";
+            }
+            .enter-amount-btn:hover{
+                background-color: $btn-hover;
+            }
+        }
+    }
+}
+

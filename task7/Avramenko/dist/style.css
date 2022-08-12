@@ -120,4 +120,8 @@ ul {
 .main-screen__buttons .btn-view-demo a {
   color: #191A15;
 }
+
+body {
+  background-color: red;
+}
 /*# sourceMappingURL=style.css.map */
