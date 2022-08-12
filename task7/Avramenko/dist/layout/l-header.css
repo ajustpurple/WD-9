@@ -9,6 +9,12 @@
   font-weight: 600;
   color: #54BD95;
 }
+.header__burger {
+  display: none;
+}
+.header .nav {
+  margin-left: 240px;
+}
 .header .nav__list {
   display: flex;
 }

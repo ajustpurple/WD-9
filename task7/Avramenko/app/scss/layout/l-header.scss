@@ -13,7 +13,11 @@ $btn-hover: #4a856f;
         font-weight: 600;
         color: #54BD95;
     }
+    &__burger {
+        display: none;
+    }
     .nav {
+        margin-left: 240px;
         &__list {
             display: flex;
         }

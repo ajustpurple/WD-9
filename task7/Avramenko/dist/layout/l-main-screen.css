@@ -1,5 +1,11 @@
 .main-screen {
   padding-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main-screen__left {
+  flex-basis: 50%;
 }
 .main-screen__left .h1 {
   font-size: 80px;
@@ -46,5 +52,117 @@
 }
 .main-screen__buttons .btn-view-demo a {
   color: #191A15;
+}
+.main-screen__right {
+  position: relative;
+}
+.main-screen__right .photo-man__img {
+  max-width: 410px;
+  max-height: 526px;
+  border-radius: 10px;
+}
+.main-screen__right .card-img {
+  position: absolute;
+  bottom: 17px;
+  right: -111px;
+}
+.main-screen__right .moneds-icon {
+  position: absolute;
+  top: 26px;
+  right: -34.5px;
+}
+.main-screen__right .message-icon {
+  position: absolute;
+  bottom: -33px;
+  right: 47px;
+}
+.main-screen__right .total-img {
+  position: absolute;
+  left: -76px;
+  bottom: 35px;
+}
+.main-screen__right .check-icon {
+  background-color: #4535AF;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  position: absolute;
+  left: -54px;
+  top: 173px;
+}
+.main-screen__right .check-icon__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-screen__right .enter-amount {
+  position: absolute;
+  top: 58px;
+  left: -180px;
+  width: 262px;
+  height: 78px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 14px 18px;
+}
+.main-screen__right .enter-amount__title {
+  font-size: 12px;
+  font-weight: 400;
+  color: #A9A7B6;
+}
+.main-screen__right .enter-amount__text {
+  border: none;
+  font-size: 18px;
+  color: #000;
+  margin-top: 8px;
+  background-color: transparent;
+  outline: transparent;
+}
+.main-screen__right .enter-amount__btn {
+  padding: 5px 16px;
+  background-color: #52BD94;
+  border: none;
+  border-radius: 40px;
+  background-color: #54BD95;
+  color: #F8F8FA;
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  top: 23px;
+  right: 17px;
+}
+.main-screen__right .enter-amount__btn:hover {
+  background-color: #4a856f;
+}
+.main-screen__right .enter-amount__line {
+  height: 1px;
+  border-top: 1px solid #EEEEEE;
+  margin-top: 5px;
+}
+
+.firms {
+  margin-top: 130px;
+}
+.firms__title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #191A15;
+  display: flex;
+  justify-content: center;
+}
+.firms__items {
+  margin-top: 60px;
+}
+.firms__link {
+  margin-right: 50px;
+}
+.firms__img {
+  height: 36px;
+}
+
+.gradient {
+  background: linear-gradient(225deg, #FFD6D6, #fff);
 }
 /*# sourceMappingURL=l-main-screen.css.map */
