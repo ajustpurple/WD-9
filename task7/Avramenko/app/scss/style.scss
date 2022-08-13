@@ -1,0 +1,14 @@
+// base styles
+@import "_base.scss";
+// header
+@import "layout/l-header.scss";
+// main screen
+@import "layout/l-main-screen.scss";
+<<<<<<< HEAD:task7/Avramenko/app/scss/style.scss
+body{
+    background-color: red;
+}
+=======
+// responsive 
+@import "responsive.scss";
+>>>>>>> refs/remotes/origin/main:task 7/Avramenko/app/scss/style.scss

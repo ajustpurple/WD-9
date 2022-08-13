@@ -1,0 +1,46 @@
+@media (max-width: 767px){
+    .body{
+        background: none;
+    }
+    .container{
+        max-width: none;
+    }
+    .header{
+        display: none;
+    }
+    .mainscreen{
+        display: flex;
+        flex-direction: column;
+        .left-side{
+            .left-side-h1{
+                font-size: 3rem;
+            }
+            .left-side-bracket{
+                width: 90%;
+            }
+
+        }
+        .right-side{
+            margin-top: 50px;
+            .img-ok{
+                display: none;
+            }
+            .img-blue{
+                display: none;
+            }
+            .img-human1{
+                margin-left: 10px;
+                width: 89%;
+            }
+            .img-card{
+                display: none;
+            }
+            .img-coins{
+                display: none;
+            }
+            .img-icon{
+                display: none;
+            }
+        }
+    }
+}

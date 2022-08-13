@@ -145,6 +145,11 @@ ul {
   font-weight: 500;
   color: #191A15;
 }
+<<<<<<< HEAD:task7/Avramenko/dist/style.css
+
+body {
+  background-color: red;
+=======
 .main-screen__right {
   position: relative;
   align-self: flex-start;
@@ -743,5 +748,6 @@ ul {
   .header .main-screen .main-screen__left .curve__img {
     width: 300px;
   }
+>>>>>>> refs/remotes/origin/main:task 7/Avramenko/dist/style.css
 }
 /*# sourceMappingURL=style.css.map */

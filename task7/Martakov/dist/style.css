@@ -1,0 +1,245 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 500;
+  color: #A6A6A6;
+  background: linear-gradient(90deg, #cff5e6, #F5F5F5, #cff5e6);
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #A6A6A6;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.header-row .header-logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #54BD95;
+}
+.header-row .header-menu {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-row .header-entry {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-row .btn-sign-up {
+  background-color: #54BD95;
+  color: #F8F8FA;
+  padding: 10px;
+  border-radius: 10px;
+}
+.header-row .btn-sign-up--color {
+  color: #F8F8FA;
+}
+.header-row .btn-sign-up:hover {
+  background-color: grey;
+}
+
+.mainscreen {
+  margin-top: 50px;
+  display: flex;
+}
+.mainscreen .left-side {
+  height: 578px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mainscreen .left-side .left-side-h1 {
+  font-size: 5rem;
+  color: black;
+}
+.mainscreen .left-side .left-side-p {
+  color: black;
+}
+.mainscreen .left-side .left-side-btns {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainscreen .left-side .left-side-btns .btn-try-free {
+  background-color: #54BD95;
+  color: #F8F8FA;
+  padding: 20px 15px;
+  border-radius: 35px;
+}
+.mainscreen .left-side .left-side-btns .btn-try-free a {
+  color: #F8F8FA;
+}
+.mainscreen .left-side .left-side-btns .btn-try-free:hover {
+  background-color: grey;
+}
+.mainscreen .right-side {
+  height: 578px;
+  width: 50%;
+  display: block;
+  position: relative;
+}
+.mainscreen .right-side .img-human {
+  position: absolute;
+  z-index: 1;
+  margin: 26px 90px;
+}
+.mainscreen .right-side .img-card {
+  position: absolute;
+  z-index: 2;
+  margin-top: 320px;
+  margin-left: 400px;
+}
+.mainscreen .right-side .img-total {
+  position: absolute;
+  z-index: 2;
+  margin-top: 390px;
+}
+.mainscreen .right-side .img-icon {
+  position: absolute;
+  z-index: 2;
+  margin-top: 530px;
+  margin-left: 380px;
+}
+.mainscreen .right-side .img-coins {
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 470px;
+}
+.mainscreen .right-side .img-blue {
+  position: absolute;
+  z-index: 2;
+  margin-top: 200px;
+  margin-left: 30px;
+}
+.mainscreen .right-side .img-ok {
+  position: absolute;
+  z-index: 2;
+  margin-top: 213px;
+  margin-left: 45px;
+}
+.mainscreen .right-side .amount {
+  position: relative;
+  margin-top: 40px;
+}
+.mainscreen .right-side .amount .enter-amount-text {
+  position: absolute;
+  z-index: 2;
+  width: 262px;
+  height: 78px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.mainscreen .right-side .amount .enter-amount-btn {
+  position: absolute;
+  z-index: 3;
+  padding: 5px 16px;
+  border: none;
+  border-radius: 40px;
+  background-color: #54BD95;
+  color: #F8F8FA;
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  top: 25px;
+  left: 180px;
+}
+.mainscreen .right-side .amount .enter-amount-title {
+  position: absolute;
+  z-index: 4;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.mainscreen .right-side .amount .enter-amount-title::before {
+  position: absolute;
+  width: 227px;
+  height: 0px;
+  top: 50px;
+  border: 1px solid #bbbbbb;
+  content: "";
+}
+.mainscreen .right-side .amount .enter-amount-btn:hover {
+  background-color: grey;
+}
+
+@media (max-width: 767px) {
+  .body {
+    background: none;
+  }
+
+  .container {
+    max-width: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .mainscreen {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainscreen .left-side .left-side-h1 {
+    font-size: 3rem;
+  }
+  .mainscreen .left-side .left-side-bracket {
+    width: 90%;
+  }
+  .mainscreen .right-side {
+    margin-top: 50px;
+  }
+  .mainscreen .right-side .img-ok {
+    display: none;
+  }
+  .mainscreen .right-side .img-blue {
+    display: none;
+  }
+  .mainscreen .right-side .img-human1 {
+    margin-left: 10px;
+    width: 89%;
+  }
+  .mainscreen .right-side .img-card {
+    display: none;
+  }
+  .mainscreen .right-side .img-coins {
+    display: none;
+  }
+  .mainscreen .right-side .img-icon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

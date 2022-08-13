@@ -1,0 +1,130 @@
+.mainscreen {
+  margin-top: 50px;
+  display: flex;
+}
+.mainscreen .left-side {
+  height: 578px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mainscreen .left-side .left-side-h1 {
+  font-size: 5rem;
+  color: black;
+}
+.mainscreen .left-side .left-side-p {
+  color: black;
+}
+.mainscreen .left-side .left-side-btns {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainscreen .left-side .left-side-btns .btn-try-free {
+  background-color: #54BD95;
+  color: #F8F8FA;
+  padding: 20px 15px;
+  border-radius: 35px;
+}
+.mainscreen .left-side .left-side-btns .btn-try-free a {
+  color: #F8F8FA;
+}
+.mainscreen .left-side .left-side-btns .btn-try-free:hover {
+  background-color: grey;
+}
+.mainscreen .right-side {
+  height: 578px;
+  width: 50%;
+  display: block;
+  position: relative;
+}
+.mainscreen .right-side .img-human {
+  position: absolute;
+  z-index: 1;
+  margin: 26px 90px;
+}
+.mainscreen .right-side .img-card {
+  position: absolute;
+  z-index: 2;
+  margin-top: 320px;
+  margin-left: 400px;
+}
+.mainscreen .right-side .img-total {
+  position: absolute;
+  z-index: 2;
+  margin-top: 390px;
+}
+.mainscreen .right-side .img-icon {
+  position: absolute;
+  z-index: 2;
+  margin-top: 530px;
+  margin-left: 380px;
+}
+.mainscreen .right-side .img-coins {
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 470px;
+}
+.mainscreen .right-side .img-blue {
+  position: absolute;
+  z-index: 2;
+  margin-top: 200px;
+  margin-left: 30px;
+}
+.mainscreen .right-side .img-ok {
+  position: absolute;
+  z-index: 2;
+  margin-top: 213px;
+  margin-left: 45px;
+}
+.mainscreen .right-side .amount {
+  position: relative;
+  margin-top: 40px;
+}
+.mainscreen .right-side .amount .enter-amount-text {
+  position: absolute;
+  z-index: 2;
+  width: 262px;
+  height: 78px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.mainscreen .right-side .amount .enter-amount-btn {
+  position: absolute;
+  z-index: 3;
+  padding: 5px 16px;
+  border: none;
+  border-radius: 40px;
+  background-color: #54BD95;
+  color: #F8F8FA;
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  top: 25px;
+  left: 180px;
+}
+.mainscreen .right-side .amount .enter-amount-title {
+  position: absolute;
+  z-index: 4;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.mainscreen .right-side .amount .enter-amount-title::before {
+  position: absolute;
+  width: 227px;
+  height: 0px;
+  top: 50px;
+  border: 1px solid #bbbbbb;
+  content: "";
+}
+.mainscreen .right-side .amount .enter-amount-btn:hover {
+  background-color: grey;
+}
+/*# sourceMappingURL=main.css.map */

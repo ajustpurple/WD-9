@@ -1,0 +1,47 @@
+@media (max-width: 767px) {
+  .body {
+    background: none;
+  }
+
+  .container {
+    max-width: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .mainscreen {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainscreen .left-side .left-side-h1 {
+    font-size: 3rem;
+  }
+  .mainscreen .left-side .left-side-bracket {
+    width: 90%;
+  }
+  .mainscreen .right-side {
+    margin-top: 50px;
+  }
+  .mainscreen .right-side .img-ok {
+    display: none;
+  }
+  .mainscreen .right-side .img-blue {
+    display: none;
+  }
+  .mainscreen .right-side .img-human1 {
+    margin-left: 10px;
+    width: 89%;
+  }
+  .mainscreen .right-side .img-card {
+    display: none;
+  }
+  .mainscreen .right-side .img-coins {
+    display: none;
+  }
+  .mainscreen .right-side .img-icon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

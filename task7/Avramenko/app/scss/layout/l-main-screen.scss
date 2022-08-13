@@ -1,0 +1,169 @@
+@mixin button {
+    background-color: #54BD95;
+    color: #F8F8FA;
+}
+$btn-hover: #4a856f;
+.main-screen {
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &__left {
+        flex-basis: 50%;
+        .h1 {
+            font-size: 80px;
+            font-weight: 700;
+            color: #191A15;
+        }
+    }
+    .curve {
+        margin-top: 30px;
+    }
+    &__p {
+        margin-top: 50px;
+        font-size: 18px;
+        color: #000;
+    }
+    &__buttons {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        .btn-try-free {
+            @include button;
+            padding: 20px 30px;
+            border-radius: 40px;
+            margin-right: 40px;
+            a {
+                color: #F8F8FA;
+            }
+            &:hover {
+                background-color: $btn-hover;
+            }
+        }
+        .icon-play {
+            margin-right: 14px;
+            &__img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+        .btn-view-demo {
+            font-size: 18px;
+            color: #191A15;
+            position: relative;
+            a {
+                color: #191A15;
+            }
+        }
+    }
+    &__right {
+        position: relative;
+            
+        .photo-man__img {
+            max-width: 410px;
+            max-height: 526px;
+            border-radius: 10px;
+        }
+        .card-img {
+            position: absolute;
+            bottom: 17px;
+            right: -111px;
+        }
+        .moneds-icon {
+            position: absolute;
+            top: 26px;
+            right: -34.5px;
+        }
+        .message-icon {
+            position: absolute;
+            bottom: -33px;
+            right: 47px;
+        }
+        .total-img {
+            position: absolute;
+            left: -76px;
+            bottom: 35px;
+        }
+        .check-icon {
+            background-color: #4535AF;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            transform: rotate(-15deg);
+            position: absolute;
+            left: -14px + -40px;
+            top: 173px;
+            &__img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        .enter-amount {
+            position: absolute;
+            top: 58px;
+            left: -180px;
+            width: 262px;
+            height: 78px;
+            border-radius: 10px;
+            background-color: #fff;
+            padding: 14px 18px;
+            &__title {
+                font-size: 12px;
+                font-weight: 400;
+                color: #A9A7B6;
+            }
+            &__text {
+                border: none;
+                font-size: 18px;
+                color: #000;
+                margin-top: 8px;
+                background-color: transparent;
+                outline: transparent;
+            }
+            &__btn {
+                padding: 5px 16px;
+                background-color: #52BD94;
+                border: none;
+                border-radius: 40px;
+                @include button();
+                font-size: 13px;
+                font-weight: 500;
+                position: absolute;
+                top: 23px;
+                right: 17px;
+                &:hover {
+                    background-color: $btn-hover;
+                }
+            }
+            &__line {
+                height: 1px;
+                border-top: 1px solid #EEEEEE;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+.firms {
+    margin-top: 130px;
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        color: #191A15;
+        display: flex;
+        justify-content: center;
+    }
+    &__items {
+        margin-top: 60px;
+    }
+    &__link {
+        margin-right: 50px;
+    }
+    &__img {
+        height: 36px;
+    }
+}
+.gradient {
+    background: linear-gradient(225deg, #FFD6D6, #fff)
+}

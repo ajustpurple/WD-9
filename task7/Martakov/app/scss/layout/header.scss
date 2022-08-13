@@ -1,0 +1,38 @@
+@mixin button {
+    background-color: #54BD95;
+    color: #F8F8FA;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    .header-logo {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #54BD95;
+        }
+    .header-menu{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-entry{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .btn-sign-up{
+        background-color: #54BD95;
+        color: #F8F8FA;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .btn-sign-up--color {
+        color: #F8F8FA;
+    }
+    .btn-sign-up:hover {
+        background-color: grey;
+    }
+}
