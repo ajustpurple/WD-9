@@ -1,7 +1,6 @@
 .mainscreen {
   margin-top: 50px;
   display: flex;
-  flex-direction: row;
 }
 .mainscreen .left-side {
   height: 578px;
