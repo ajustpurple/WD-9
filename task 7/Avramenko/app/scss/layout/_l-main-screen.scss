@@ -1,0 +1,122 @@
+@import "modules/_const.scss";
+.main-screen {
+    @extend %alignment;
+    align-items: flex-start;
+    margin-top: 130px; 
+    &__left {
+        .h1 {
+            @include fz(5rem, 700, #191A15)
+        }
+        .curve {
+            margin-top: 30px;
+            img {
+                max-width: 479px;
+            }
+        }
+        p {
+            margin-top: 50px;
+            @include fz(18px);
+        }
+        .main-screen__buttons {
+            margin-top: 70px;
+            display: flex;
+            align-items: center;
+            .btn-try-free {
+                @include button(40px, 18px);
+                padding: 20px 30px;
+                margin-right: 40px;
+            }
+            .icon-play {
+                margin-right: 14px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            .btn-view-demo {
+                a {
+                    @include fz(18px, 500, #191A15);
+                }
+            }
+        }
+    }
+    &__right {
+        position: relative;
+        align-self: flex-start;
+            .photo-man__img {
+                max-width: 410px;
+                max-height: 526px;
+                border-radius: 10px;
+            }
+            .card-img {
+                position: absolute;
+                bottom: 17px;
+                right: -111px;
+            }
+            .moneds-icon {
+                position: absolute;
+                top: 26px;
+                right: -34.5px;
+            }
+            .message-icon {
+                position: absolute;
+                bottom: -33px;
+                right: 47px;
+            }
+            .total-img {
+                position: absolute;
+                left: -76px;
+                bottom: 35px;
+            }
+            .check-icon {
+                background-color: #4535AF;
+                width: 40px;
+                height: 40px;
+                border-radius: 10px;
+                transform: rotate(-15deg);
+                position: absolute;
+                left: -14px + -40px;
+                top: 173px;
+                &__img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .enter-amount {
+                position: absolute;
+                top: 58px;
+                left: -180px;
+                width: 262px;
+                height: 78px;
+                border-radius: 10px;
+                background-color: #fff;
+                padding: 14px 18px;
+                &__title {
+                    @include fz(0.875rem, 500, #A9A7B6);
+                }
+                &__text {
+                    border: none;
+                    @include fz(1.125rem, 500, #000);
+                    margin-top: 8px;
+                    background-color: transparent;
+                    outline: transparent;
+                }
+                &__btn {
+                    padding: 5px 16px;
+                    @include button(40px, 13px);
+                    border: none;
+                    color: $btn-color;
+                    position: absolute;
+                    top: 23px;
+                    right: 17px;
+                }
+                &__line {
+                    height: 1px;
+                    border-top: 1px solid #EEEEEE;
+                    margin-top: 5px;
+                }
+            }
+        }
+}

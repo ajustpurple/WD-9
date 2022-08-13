@@ -1,0 +1,6 @@
+@import "modules/_const.scss";
+.plan-card {
+    &__title {
+        @include fz(30px, 600);
+    }
+}

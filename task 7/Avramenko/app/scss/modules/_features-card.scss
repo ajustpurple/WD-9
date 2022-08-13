@@ -1,0 +1,15 @@
+@import "modules/_const.scss";
+.features-card {
+    &__img {
+        width: 364px;
+        height: 430px;
+    }
+    &__title {
+        @include fz(30px, 600);
+        margin-top: 30px;
+    }
+    &__subtitle {
+        @include subtitle;
+        margin-top: 20px;
+    }
+}

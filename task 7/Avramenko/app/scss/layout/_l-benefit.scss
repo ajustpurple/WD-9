@@ -1,0 +1,61 @@
+@import "modules/_const.scss";
+.benefit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.benefit-left {
+    &__title {
+        @include fz(50px, 700);
+    }
+    &__info {
+        margin-top: 50px;
+    }
+    &__list {
+        @include fz(18px);
+        position: relative;
+    }
+    &__item {
+        position: relative;
+        padding-left: 52px;
+        margin-top: 30px;
+        &::before {
+            content: "";
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: $second-color;
+            position: absolute;
+            top: -5px;
+            left: 0;
+        }
+    }
+}
+.benefit-right {
+    position: relative;
+    &__laptop {
+        max-width: 450px;
+        max-height: 529px;
+        border-radius: 20px;
+    }
+    &__total {
+        position: absolute;
+        top: 121px;
+        right: -69px;
+    }
+    &__money {
+        position: absolute;
+        left: -106px;
+        bottom: -14px;
+    }
+    &__img {
+        position: absolute;
+        top: 275px;
+        left: -60px;
+    }
+    &__profile {
+        position: absolute;
+        top: 36px;
+        left: -124px;
+    }
+}

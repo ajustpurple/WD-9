@@ -1,0 +1,27 @@
+@import "modules/_const.scss";
+.features {
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+}
+.features-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title {
+        @include fz(50px, 600);
+    }
+    &__subtitle {
+        @include subtitle;
+    }
+    &__btn {
+        @include button(70px,18px);
+        align-self: center;
+        padding: 18px 31px;
+    }
+}
+.features-bot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 74px;
+}

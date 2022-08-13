@@ -1,0 +1,20 @@
+@import "modules/_const.scss";
+.rating-card {
+    margin-right: 80px;
+    &__stars {
+        img {
+            width: 142px;
+        }
+    }
+    &__grade {
+        margin-top: 18px;
+        @include fz(18px);
+        span {
+            font-weight: 700;
+        }
+    }
+    &__type {
+        margin-top: 18px;
+        @include fz(18px, 700, $main-color);
+    }
+}

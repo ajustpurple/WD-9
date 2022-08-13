@@ -1,0 +1,12 @@
+@import "modules/_const.scss";
+.firms {
+    padding: 130px 0;
+    &__title {
+        @include fz(40px, 700, #191A15);
+        text-align: center;
+    }
+    &__items {
+        @extend %alignment;
+        margin-top: 61px;
+    }
+}

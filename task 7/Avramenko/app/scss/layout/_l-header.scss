@@ -1,0 +1,35 @@
+@import "modules/_const.scss";
+
+.header {
+    @extend %alignment;
+    padding-top: 40px;
+    .logo {
+        a {
+            @include fz(3.125rem, 600, $main-color)
+        }
+    }
+    .nav {
+        &__list {
+            @extend %alignment;
+        }
+        &__item {
+            margin-right: 40px;
+            a {
+                color: $second-color;
+            }
+        }
+    }
+    .entry {
+        @extend %alignment;
+        .btn-login {
+            margin-right: 20px;
+            a {
+                color: $second-color;
+            }
+        }
+        .btn-sign-up {
+            @include button (10px, 16px);
+            padding: 10px;
+        }
+    }
+}

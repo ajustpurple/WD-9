@@ -1,3 +1,4 @@
+@import "modules/_const.scss";
 @media (max-width: 1410px) {
     .card-img {
         display: none;
@@ -7,51 +8,42 @@
     .header {
         position: relative;
         .nav {
-            margin-left: 0;
             position: absolute;
             top: -100%;
-            display: block;
             width: 100%;
             display: flex;
             justify-content: center;
             transition: all 0.3s ease 0s;
         }
             &__burger {
-            display: block;
             position: relative;
             width: 30px;
             height: 20px;
         }
         &__burger span {
-            background-color: #54BD95;
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            left: 0;
+            @include burger;
             top: 9px;
-            transition: all 0.3s ease 0s;
         }
         &__burger::before,
         &__burger::after {
             content: "";
-            background-color: #54BD95;
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            left: 0;
-            transition: all 0.3s ease 0s;
+            @include burger;
         }
         &__burger::before {
+            content: "";
             top: 0;
         }
         &__burger::after {
+            content: "";
             bottom: 0;
         } 
         &__burger.active::before {
+            content: "";
             transform: rotate(45deg);
             top: 9px;
         }
         &__burger.active::after {
+            content: "";
             transform: rotate(-45deg);
             bottom: 9px;
         }
@@ -62,23 +54,154 @@
             top: 100px;
         }
     }
-    .main-screen__right .moneds-icon {
-        left: 200px;
-        top: -26px;
+    .main-screen .main-screen__right {
+            .moneds-icon {
+            top: -26px;
+            right: 80px;
+        }
     }
+}
+@media (max-width: 1200px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-screen__right .enter-amount {
+        top: 550px;
+    }
+}
+@media (max-width: 1050px) {
+    .main-screen__left {
+    .h1 {
+        font-size: 3.5rem;
+    }
+    .curve {
+        &__img {
+            width: 350px;
+        }
+    }
+    p {
+        font-size: 1rem;
+    }
+    }
+}
+@media (max-width: 1024px) {
+    .firms {
+        &__title {
+            font-size: 2rem;
+        }
+        &__items {
+            flex-direction: column;
+            a {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 950px) {
+    .main-screen { margin-top: 70px;}
+    .main-screen__right {
+        .total-img {
+            bottom: -30px;
+            left: 100px;
+        }
+        .enter-amount {
+            top: 10px;
+            left: 10px;
+        }
+    }
+}
+@media (max-width: 880px) {
     .main-screen {
         flex-direction: column;
-        align-items: center;
+        &__right {
+            align-self: center;
+            margin-top: 70px;
+        }
     }
-    .main-screen__right {
-        margin-top: 100px;
+    .firms {
+        padding-top: 70px;
     }
-    .firms__items {
-        display: flex;
+}
+@media (max-width:750px) {
+    .we-support__body {
         flex-direction: column;
-        align-items: center;
     }
-    .firms__link {
-        margin-top: 20px;
+    .we-support-right {
+        margin-top: 70px;
+        .statistics-card {
+            margin-bottom: 30px;
+        }
+    }
+}
+@media (max-width: 540px) {
+    .main-screen {
+        &__right {
+            .check-icon {
+                left: -15px;
+            }
+        }
+    }
+}
+@media (max-width: 450px) {
+    .header {
+        .logo a{
+            font-size: 2rem;
+        }
+    }
+    .main-screen {
+        &__right {
+            .enter-amount {
+                width: 200px;
+            }
+            .photo-man {
+                &__img {
+                    width: 280px;
+                }
+            }
+        }
+    }
+    .rating-elements {
+        flex-direction: column;
+    }
+    .rating-card {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 450px) {
+    .main-screen__left {
+        text-align: center;
+        .h1 {
+            font-size: 2rem;
+        }
+        .curve img {
+            width: 200px;
+        }
+}
+}
+@media (max-width: 320px) {
+    .header {
+            .nav {
+                &__item {
+                    margin-right: 10px;
+            }
+            .entry {
+                .btn-login {
+                    margin: 0;
+                }
+            }
+        }
+        .main-screen {
+            .main-screen__left {
+                .h1 {
+                    font-size: 2.5rem;
+                }
+                .curve {
+                    &__img {
+                        width: 300px;
+                    }
+                }
+            }
+        }
     }
 }

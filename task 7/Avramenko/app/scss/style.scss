@@ -1,8 +1,31 @@
-// base styles
-@import "_base.scss";
-// header
-@import "layout/l-header.scss";
-// main screen
-@import "layout/l-main-screen.scss";
-// responsive 
+
+//base
+@import "base.scss";
+//const 
+@import "modules/_const.scss";
+//gradient
+@import "modules/_gradient.scss";
+//header 
+@import "layout/_l-header.scss";
+//main-screen
+@import "layout/_l-main-screen.scss";
+//firms-section
+@import "layout/_l-firms-section.scss";
+//we support section
+@import "layout/_l-we-support-section.scss";
+//rating card
+@import "modules/_rating-card.scss";
+//statistics-card
+@import "modules/_statistics-card.scss";
+//features section
+@import "layout/_l-features-section.scss";
+//card features
+@import "modules/_features-card.scss";
+//benefit section
+@import "layout/_l-benefit.scss";
+//section plan
+@import "layout/_l-plan-section.scss";
+//card plan
+@import "modules/_plan-card.scss";
+//responsive 
 @import "responsive.scss";

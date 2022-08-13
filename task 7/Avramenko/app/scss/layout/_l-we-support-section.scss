@@ -1,0 +1,27 @@
+@import "modules/_const.scss";
+.we-support {
+    padding: 60px 0;
+    background-color: #F9F8FE;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+    .we-support-left {
+        &__title {
+            @include fz(50px, 600, #191A15);
+        }
+        &__text {
+            margin-top: 30px;
+            @include subtitle;
+        }
+        .rating-elements {
+            margin-top: 73px;
+            display: flex;
+        }
+    }
+    .we-support-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
