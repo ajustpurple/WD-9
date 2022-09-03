@@ -1,0 +1,11 @@
+//colors
+@import "base/_colors.scss";
+
+@mixin button {
+    background-color: $main-color;
+    font-size: 14px;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

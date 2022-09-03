@@ -1,0 +1,9 @@
+@import "base/_colors.scss";
+@import "../base/_mixin.scss";
+
+.header {
+    background: red;
+    ul {
+        list-style: none;
+    }
+}
